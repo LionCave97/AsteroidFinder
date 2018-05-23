@@ -48,8 +48,6 @@ class Dash extends React.Component {
       <CssBaseline />
       {/* The rest of your application */}
 
-
-
       <DashCharts />
 
 

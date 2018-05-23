@@ -36,6 +36,10 @@ class DashCharts extends React.Component {
 
     }
     this._fetchResponseNeoLookup(2207398);
+
+
+        var done = true;
+        this.setState({done: done});
   }
 
   _getDayAstroids(day){
@@ -51,8 +55,6 @@ class DashCharts extends React.Component {
 
     });
 
-    var done = true;
-    this.setState({done: done});
 
   }
 
@@ -91,8 +93,7 @@ class DashCharts extends React.Component {
         planetCount[index]++;
 
       }
-      console.log(planets);
-      console.log(planetCount);
+
 
 
     }
@@ -173,6 +174,7 @@ class DashCharts extends React.Component {
             graph_id={"asteroids-planet"}
             width="100%"
             height="400px"
+            legend_toggle
             />
             </Card>
           </div>
@@ -187,12 +189,13 @@ class DashCharts extends React.Component {
             graph_id={"asteroids-count"}
             width="100%"
             height="400px"
+            legend_toggle
             />
             </Card>
           </div>
           <div className="chart">
           <Card className="con">
-          <h3>The amount of Asteroids that may have potentially hazardous to the earth for the past {this.state.max} days.</h3>
+          <h3>The amount of Asteroids that may have been potentially hazardous to the earth for the past {this.state.max} days.</h3>
           <Chart
             chartType="BarChart"
             options={{title: "Date", hAxis: {title: "Hazardous asteroids"}, vAxis: {title: "Days"}}}
@@ -201,6 +204,7 @@ class DashCharts extends React.Component {
             graph_id={"asteroids-hazardous"}
             width="100%"
             height="400px"
+            legend_toggle
             />
             </Card>
           </div>

@@ -6,7 +6,8 @@
   width: 90%;
 
   margin-left: 5%;
-  margin-top: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .data {
@@ -16,7 +17,7 @@
 
 h3 {
   margin-left: 25px;
-  
+
 }
 
 .navbar {
