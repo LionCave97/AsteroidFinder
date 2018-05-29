@@ -18,27 +18,8 @@ class Dash extends React.Component {
 
   constructor() {
     super();
-    this.state = {
-      length : 0,
-      data: [],
-      lookup: [],
-      browse: []
 
-
-    }
   }
-
-  componentWillMount() {
-
-    var date = new Date();
-    var month = date.getMonth() + 1;
-    var today = date.getFullYear()+"-"+month+ "-"+date.getDate();
-
-  //   console.log(today);
-  // this._fetchResponseNeoFeed(today, today);
-  // this._fetchResponseNeoLookup("3275510");
-  // this._fetchResponseNeoBrowse();
-}
 
   render() {
 

@@ -1,0 +1,1028 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'update' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly mapToRegistry name @material-ui/core
+5 silly mapToRegistry scope (from package name) @material-ui
+6 verbose mapToRegistry no registry URL found in name for scope @material-ui
+7 silly mapToRegistry using default registry
+8 silly mapToRegistry registry https://registry.npmjs.org/
+9 silly mapToRegistry uri https://registry.npmjs.org/@material-ui%2fcore
+10 silly mapToRegistry name @material-ui/icons
+11 silly mapToRegistry scope (from package name) @material-ui
+12 verbose mapToRegistry no registry URL found in name for scope @material-ui
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/@material-ui%2ficons
+16 silly mapToRegistry name bootstrap
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+20 silly mapToRegistry name bootstrap-datepicker
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/bootstrap-datepicker
+24 silly mapToRegistry name jquery
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry uri https://registry.npmjs.org/jquery
+28 silly mapToRegistry name material-ui
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry uri https://registry.npmjs.org/material-ui
+32 silly mapToRegistry name react
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry uri https://registry.npmjs.org/react
+36 silly mapToRegistry name react-dom
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+40 silly mapToRegistry name react-google-charts
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/react-google-charts
+44 silly mapToRegistry name react-router-dom
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/react-router-dom
+48 silly mapToRegistry name typeface-roboto
+49 silly mapToRegistry using default registry
+50 silly mapToRegistry registry https://registry.npmjs.org/
+51 silly mapToRegistry uri https://registry.npmjs.org/typeface-roboto
+52 silly mapToRegistry name babel-core
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry uri https://registry.npmjs.org/babel-core
+56 silly mapToRegistry name babel-preset-es2015
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-es2015
+60 silly mapToRegistry name babel-preset-react
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-react
+64 silly mapToRegistry name babelify
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry uri https://registry.npmjs.org/babelify
+68 silly mapToRegistry name browserify
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry uri https://registry.npmjs.org/browserify
+72 verbose request uri https://registry.npmjs.org/@material-ui%2fcore
+73 verbose request no auth needed
+74 info attempt registry request try #1 at 7:48:29 PM
+75 verbose request id 14ace061bd8cfa9a
+76 http request GET https://registry.npmjs.org/@material-ui%2fcore
+77 verbose request uri https://registry.npmjs.org/@material-ui%2ficons
+78 verbose request no auth needed
+79 info attempt registry request try #1 at 7:48:29 PM
+80 http request GET https://registry.npmjs.org/@material-ui%2ficons
+81 verbose request uri https://registry.npmjs.org/bootstrap
+82 verbose request no auth needed
+83 info attempt registry request try #1 at 7:48:29 PM
+84 http request GET https://registry.npmjs.org/bootstrap
+85 verbose request uri https://registry.npmjs.org/bootstrap-datepicker
+86 verbose request no auth needed
+87 info attempt registry request try #1 at 7:48:29 PM
+88 http request GET https://registry.npmjs.org/bootstrap-datepicker
+89 verbose request uri https://registry.npmjs.org/jquery
+90 verbose request no auth needed
+91 info attempt registry request try #1 at 7:48:29 PM
+92 http request GET https://registry.npmjs.org/jquery
+93 verbose request uri https://registry.npmjs.org/material-ui
+94 verbose request no auth needed
+95 info attempt registry request try #1 at 7:48:29 PM
+96 http request GET https://registry.npmjs.org/material-ui
+97 verbose request uri https://registry.npmjs.org/react
+98 verbose request no auth needed
+99 info attempt registry request try #1 at 7:48:29 PM
+100 http request GET https://registry.npmjs.org/react
+101 verbose request uri https://registry.npmjs.org/react-dom
+102 verbose request no auth needed
+103 info attempt registry request try #1 at 7:48:29 PM
+104 http request GET https://registry.npmjs.org/react-dom
+105 verbose request uri https://registry.npmjs.org/react-google-charts
+106 verbose request no auth needed
+107 info attempt registry request try #1 at 7:48:29 PM
+108 http request GET https://registry.npmjs.org/react-google-charts
+109 verbose request uri https://registry.npmjs.org/react-router-dom
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 7:48:29 PM
+112 http request GET https://registry.npmjs.org/react-router-dom
+113 verbose request uri https://registry.npmjs.org/typeface-roboto
+114 verbose request no auth needed
+115 info attempt registry request try #1 at 7:48:29 PM
+116 http request GET https://registry.npmjs.org/typeface-roboto
+117 verbose request uri https://registry.npmjs.org/babel-core
+118 verbose request no auth needed
+119 info attempt registry request try #1 at 7:48:29 PM
+120 http request GET https://registry.npmjs.org/babel-core
+121 verbose request uri https://registry.npmjs.org/babel-preset-es2015
+122 verbose request no auth needed
+123 info attempt registry request try #1 at 7:48:29 PM
+124 http request GET https://registry.npmjs.org/babel-preset-es2015
+125 verbose request uri https://registry.npmjs.org/babel-preset-react
+126 verbose request no auth needed
+127 info attempt registry request try #1 at 7:48:29 PM
+128 http request GET https://registry.npmjs.org/babel-preset-react
+129 verbose request uri https://registry.npmjs.org/babelify
+130 verbose request no auth needed
+131 info attempt registry request try #1 at 7:48:29 PM
+132 http request GET https://registry.npmjs.org/babelify
+133 verbose request uri https://registry.npmjs.org/browserify
+134 verbose request no auth needed
+135 info attempt registry request try #1 at 7:48:29 PM
+136 http request GET https://registry.npmjs.org/browserify
+137 http 200 https://registry.npmjs.org/jquery
+138 verbose headers { date: 'Mon, 28 May 2018 17:48:30 GMT',
+138 verbose headers   'content-type': 'application/json; charset=UTF-8',
+138 verbose headers   'transfer-encoding': 'chunked',
+138 verbose headers   connection: 'keep-alive',
+138 verbose headers   'set-cookie': [ '__cfduid=d43ce3a70c65d81a5b144e231d9e4b7c81527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+138 verbose headers   'cache-control': 'max-age=300',
+138 verbose headers   'cf-cache-status': 'HIT',
+138 verbose headers   'cf-ray': '42228d709d3eac30-JNB',
+138 verbose headers   etag: 'W/"252f0a131cedd3ea82dfefd6fa049558"',
+138 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+138 verbose headers   'last-modified': 'Sat, 26 May 2018 13:22:58 GMT',
+138 verbose headers   vary: 'accept-encoding, accept',
+138 verbose headers   server: 'cloudflare',
+138 verbose headers   'content-encoding': 'gzip' }
+139 silly get cb [ 200,
+139 silly get   { date: 'Mon, 28 May 2018 17:48:30 GMT',
+139 silly get     'content-type': 'application/json; charset=UTF-8',
+139 silly get     'transfer-encoding': 'chunked',
+139 silly get     connection: 'keep-alive',
+139 silly get     'set-cookie': [ '__cfduid=d43ce3a70c65d81a5b144e231d9e4b7c81527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+139 silly get     'cache-control': 'max-age=300',
+139 silly get     'cf-cache-status': 'HIT',
+139 silly get     'cf-ray': '42228d709d3eac30-JNB',
+139 silly get     etag: 'W/"252f0a131cedd3ea82dfefd6fa049558"',
+139 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+139 silly get     'last-modified': 'Sat, 26 May 2018 13:22:58 GMT',
+139 silly get     vary: 'accept-encoding, accept',
+139 silly get     server: 'cloudflare',
+139 silly get     'content-encoding': 'gzip' } ]
+140 verbose get saving jquery to /home/leo/.npm/registry.npmjs.org/jquery/.cache.json
+141 verbose makeDirectory /home/leo/.npm creation not in flight; initializing
+142 silly makeDirectory /home/leo/.npm uid: 1000 gid: 1000
+143 http 200 https://registry.npmjs.org/react-dom
+144 verbose headers { date: 'Mon, 28 May 2018 17:48:30 GMT',
+144 verbose headers   'content-type': 'application/json; charset=UTF-8',
+144 verbose headers   'transfer-encoding': 'chunked',
+144 verbose headers   connection: 'keep-alive',
+144 verbose headers   'set-cookie': [ '__cfduid=db8a0b2abee82aac1f495114e7d2b69ea1527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+144 verbose headers   'cache-control': 'max-age=300',
+144 verbose headers   'cf-cache-status': 'HIT',
+144 verbose headers   'cf-ray': '42228d701e7815f2-JNB',
+144 verbose headers   etag: 'W/"cf3b1340409563c8c573238e0c052cc4"',
+144 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+144 verbose headers   'last-modified': 'Sun, 27 May 2018 13:56:07 GMT',
+144 verbose headers   vary: 'accept-encoding, accept',
+144 verbose headers   server: 'cloudflare',
+144 verbose headers   'content-encoding': 'gzip' }
+145 silly get cb [ 200,
+145 silly get   { date: 'Mon, 28 May 2018 17:48:30 GMT',
+145 silly get     'content-type': 'application/json; charset=UTF-8',
+145 silly get     'transfer-encoding': 'chunked',
+145 silly get     connection: 'keep-alive',
+145 silly get     'set-cookie': [ '__cfduid=db8a0b2abee82aac1f495114e7d2b69ea1527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+145 silly get     'cache-control': 'max-age=300',
+145 silly get     'cf-cache-status': 'HIT',
+145 silly get     'cf-ray': '42228d701e7815f2-JNB',
+145 silly get     etag: 'W/"cf3b1340409563c8c573238e0c052cc4"',
+145 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+145 silly get     'last-modified': 'Sun, 27 May 2018 13:56:07 GMT',
+145 silly get     vary: 'accept-encoding, accept',
+145 silly get     server: 'cloudflare',
+145 silly get     'content-encoding': 'gzip' } ]
+146 verbose get saving react-dom to /home/leo/.npm/registry.npmjs.org/react-dom/.cache.json
+147 http 200 https://registry.npmjs.org/bootstrap
+148 verbose headers { date: 'Mon, 28 May 2018 17:48:30 GMT',
+148 verbose headers   'content-type': 'application/json; charset=UTF-8',
+148 verbose headers   'transfer-encoding': 'chunked',
+148 verbose headers   connection: 'keep-alive',
+148 verbose headers   'set-cookie': [ '__cfduid=ddfec6d1926209854becae823c4e12c431527529709; expires=Tue, 28-May-19 17:48:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+148 verbose headers   'cache-control': 'max-age=300',
+148 verbose headers   'cf-cache-status': 'HIT',
+148 verbose headers   'cf-ray': '42228d6ef903ac36-JNB',
+148 verbose headers   etag: 'W/"eedfa2519fc873202e7360c4fb3b8828"',
+148 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+148 verbose headers   'last-modified': 'Sat, 26 May 2018 18:47:19 GMT',
+148 verbose headers   vary: 'accept-encoding, accept',
+148 verbose headers   server: 'cloudflare',
+148 verbose headers   'content-encoding': 'gzip' }
+149 silly get cb [ 200,
+149 silly get   { date: 'Mon, 28 May 2018 17:48:30 GMT',
+149 silly get     'content-type': 'application/json; charset=UTF-8',
+149 silly get     'transfer-encoding': 'chunked',
+149 silly get     connection: 'keep-alive',
+149 silly get     'set-cookie': [ '__cfduid=ddfec6d1926209854becae823c4e12c431527529709; expires=Tue, 28-May-19 17:48:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+149 silly get     'cache-control': 'max-age=300',
+149 silly get     'cf-cache-status': 'HIT',
+149 silly get     'cf-ray': '42228d6ef903ac36-JNB',
+149 silly get     etag: 'W/"eedfa2519fc873202e7360c4fb3b8828"',
+149 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+149 silly get     'last-modified': 'Sat, 26 May 2018 18:47:19 GMT',
+149 silly get     vary: 'accept-encoding, accept',
+149 silly get     server: 'cloudflare',
+149 silly get     'content-encoding': 'gzip' } ]
+150 verbose get saving bootstrap to /home/leo/.npm/registry.npmjs.org/bootstrap/.cache.json
+151 http 200 https://registry.npmjs.org/babel-preset-react
+152 verbose headers { date: 'Mon, 28 May 2018 17:48:30 GMT',
+152 verbose headers   'content-type': 'application/json; charset=UTF-8',
+152 verbose headers   'transfer-encoding': 'chunked',
+152 verbose headers   connection: 'keep-alive',
+152 verbose headers   'set-cookie': [ '__cfduid=d84aa191c8187c118acd03b2aa30701f81527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+152 verbose headers   'cache-control': 'max-age=300',
+152 verbose headers   'cf-cache-status': 'HIT',
+152 verbose headers   'cf-ray': '42228d717853ac6c-JNB',
+152 verbose headers   etag: 'W/"2b3bfbe1c6ffeff52802c9da3c3009eb"',
+152 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+152 verbose headers   'last-modified': 'Sat, 26 May 2018 01:40:43 GMT',
+152 verbose headers   vary: 'accept-encoding, accept',
+152 verbose headers   server: 'cloudflare',
+152 verbose headers   'content-encoding': 'gzip' }
+153 silly get cb [ 200,
+153 silly get   { date: 'Mon, 28 May 2018 17:48:30 GMT',
+153 silly get     'content-type': 'application/json; charset=UTF-8',
+153 silly get     'transfer-encoding': 'chunked',
+153 silly get     connection: 'keep-alive',
+153 silly get     'set-cookie': [ '__cfduid=d84aa191c8187c118acd03b2aa30701f81527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+153 silly get     'cache-control': 'max-age=300',
+153 silly get     'cf-cache-status': 'HIT',
+153 silly get     'cf-ray': '42228d717853ac6c-JNB',
+153 silly get     etag: 'W/"2b3bfbe1c6ffeff52802c9da3c3009eb"',
+153 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+153 silly get     'last-modified': 'Sat, 26 May 2018 01:40:43 GMT',
+153 silly get     vary: 'accept-encoding, accept',
+153 silly get     server: 'cloudflare',
+153 silly get     'content-encoding': 'gzip' } ]
+154 verbose get saving babel-preset-react to /home/leo/.npm/registry.npmjs.org/babel-preset-react/.cache.json
+155 http 200 https://registry.npmjs.org/react
+156 verbose headers { date: 'Mon, 28 May 2018 17:48:30 GMT',
+156 verbose headers   'content-type': 'application/json; charset=UTF-8',
+156 verbose headers   'transfer-encoding': 'chunked',
+156 verbose headers   connection: 'keep-alive',
+156 verbose headers   'set-cookie': [ '__cfduid=d9c54ab66a18fe88822c178bbf0cb5ce91527529709; expires=Tue, 28-May-19 17:48:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+156 verbose headers   'cache-control': 'max-age=300',
+156 verbose headers   'cf-cache-status': 'HIT',
+156 verbose headers   'cf-ray': '42228d6f5e0dac2a-JNB',
+156 verbose headers   etag: 'W/"b00b5e79afed05a8792f68aa2d386c3d"',
+156 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+156 verbose headers   'last-modified': 'Sun, 27 May 2018 15:23:09 GMT',
+156 verbose headers   vary: 'accept-encoding, accept',
+156 verbose headers   server: 'cloudflare',
+156 verbose headers   'content-encoding': 'gzip' }
+157 silly get cb [ 200,
+157 silly get   { date: 'Mon, 28 May 2018 17:48:30 GMT',
+157 silly get     'content-type': 'application/json; charset=UTF-8',
+157 silly get     'transfer-encoding': 'chunked',
+157 silly get     connection: 'keep-alive',
+157 silly get     'set-cookie': [ '__cfduid=d9c54ab66a18fe88822c178bbf0cb5ce91527529709; expires=Tue, 28-May-19 17:48:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+157 silly get     'cache-control': 'max-age=300',
+157 silly get     'cf-cache-status': 'HIT',
+157 silly get     'cf-ray': '42228d6f5e0dac2a-JNB',
+157 silly get     etag: 'W/"b00b5e79afed05a8792f68aa2d386c3d"',
+157 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+157 silly get     'last-modified': 'Sun, 27 May 2018 15:23:09 GMT',
+157 silly get     vary: 'accept-encoding, accept',
+157 silly get     server: 'cloudflare',
+157 silly get     'content-encoding': 'gzip' } ]
+158 verbose get saving react to /home/leo/.npm/registry.npmjs.org/react/.cache.json
+159 http 200 https://registry.npmjs.org/babel-preset-es2015
+160 verbose headers { date: 'Mon, 28 May 2018 17:48:30 GMT',
+160 verbose headers   'content-type': 'application/json; charset=UTF-8',
+160 verbose headers   'transfer-encoding': 'chunked',
+160 verbose headers   connection: 'keep-alive',
+160 verbose headers   'set-cookie': [ '__cfduid=db72f779df36601616ca0ae6ca8501efb1527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+160 verbose headers   'cache-control': 'max-age=300',
+160 verbose headers   'cf-cache-status': 'HIT',
+160 verbose headers   'cf-ray': '42228d709ecaac42-JNB',
+160 verbose headers   etag: 'W/"2ec283f6c72d546e866190d2629a3fda"',
+160 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+160 verbose headers   'last-modified': 'Sat, 26 May 2018 18:00:20 GMT',
+160 verbose headers   vary: 'accept-encoding, accept',
+160 verbose headers   server: 'cloudflare',
+160 verbose headers   'content-encoding': 'gzip' }
+161 silly get cb [ 200,
+161 silly get   { date: 'Mon, 28 May 2018 17:48:30 GMT',
+161 silly get     'content-type': 'application/json; charset=UTF-8',
+161 silly get     'transfer-encoding': 'chunked',
+161 silly get     connection: 'keep-alive',
+161 silly get     'set-cookie': [ '__cfduid=db72f779df36601616ca0ae6ca8501efb1527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+161 silly get     'cache-control': 'max-age=300',
+161 silly get     'cf-cache-status': 'HIT',
+161 silly get     'cf-ray': '42228d709ecaac42-JNB',
+161 silly get     etag: 'W/"2ec283f6c72d546e866190d2629a3fda"',
+161 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+161 silly get     'last-modified': 'Sat, 26 May 2018 18:00:20 GMT',
+161 silly get     vary: 'accept-encoding, accept',
+161 silly get     server: 'cloudflare',
+161 silly get     'content-encoding': 'gzip' } ]
+162 verbose get saving babel-preset-es2015 to /home/leo/.npm/registry.npmjs.org/babel-preset-es2015/.cache.json
+163 http 200 https://registry.npmjs.org/react-router-dom
+164 verbose headers { date: 'Mon, 28 May 2018 17:48:30 GMT',
+164 verbose headers   'content-type': 'application/json; charset=UTF-8',
+164 verbose headers   'transfer-encoding': 'chunked',
+164 verbose headers   connection: 'keep-alive',
+164 verbose headers   'set-cookie': [ '__cfduid=db518310b81dcc4c11985a928bc946e861527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+164 verbose headers   'cache-control': 'max-age=300',
+164 verbose headers   'cf-cache-status': 'HIT',
+164 verbose headers   'cf-ray': '42228d721b37ac66-JNB',
+164 verbose headers   etag: 'W/"125d589c8ff651c2a3c93f6ca61fd173"',
+164 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+164 verbose headers   'last-modified': 'Sun, 27 May 2018 15:07:52 GMT',
+164 verbose headers   vary: 'accept-encoding, accept',
+164 verbose headers   server: 'cloudflare',
+164 verbose headers   'content-encoding': 'gzip' }
+165 silly get cb [ 200,
+165 silly get   { date: 'Mon, 28 May 2018 17:48:30 GMT',
+165 silly get     'content-type': 'application/json; charset=UTF-8',
+165 silly get     'transfer-encoding': 'chunked',
+165 silly get     connection: 'keep-alive',
+165 silly get     'set-cookie': [ '__cfduid=db518310b81dcc4c11985a928bc946e861527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+165 silly get     'cache-control': 'max-age=300',
+165 silly get     'cf-cache-status': 'HIT',
+165 silly get     'cf-ray': '42228d721b37ac66-JNB',
+165 silly get     etag: 'W/"125d589c8ff651c2a3c93f6ca61fd173"',
+165 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+165 silly get     'last-modified': 'Sun, 27 May 2018 15:07:52 GMT',
+165 silly get     vary: 'accept-encoding, accept',
+165 silly get     server: 'cloudflare',
+165 silly get     'content-encoding': 'gzip' } ]
+166 verbose get saving react-router-dom to /home/leo/.npm/registry.npmjs.org/react-router-dom/.cache.json
+167 http 200 https://registry.npmjs.org/material-ui
+168 verbose headers { date: 'Mon, 28 May 2018 17:48:30 GMT',
+168 verbose headers   'content-type': 'application/json; charset=UTF-8',
+168 verbose headers   'transfer-encoding': 'chunked',
+168 verbose headers   connection: 'keep-alive',
+168 verbose headers   'set-cookie': [ '__cfduid=db72f779df36601616ca0ae6ca8501efb1527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+168 verbose headers   'cache-control': 'max-age=300',
+168 verbose headers   'cf-cache-status': 'HIT',
+168 verbose headers   'cf-ray': '42228d700e8bac42-JNB',
+168 verbose headers   etag: 'W/"0f8d471710b0c0fb53b2415a22e86f0c"',
+168 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+168 verbose headers   'last-modified': 'Sun, 27 May 2018 07:33:23 GMT',
+168 verbose headers   vary: 'accept-encoding, accept',
+168 verbose headers   server: 'cloudflare',
+168 verbose headers   'content-encoding': 'gzip' }
+169 silly get cb [ 200,
+169 silly get   { date: 'Mon, 28 May 2018 17:48:30 GMT',
+169 silly get     'content-type': 'application/json; charset=UTF-8',
+169 silly get     'transfer-encoding': 'chunked',
+169 silly get     connection: 'keep-alive',
+169 silly get     'set-cookie': [ '__cfduid=db72f779df36601616ca0ae6ca8501efb1527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+169 silly get     'cache-control': 'max-age=300',
+169 silly get     'cf-cache-status': 'HIT',
+169 silly get     'cf-ray': '42228d700e8bac42-JNB',
+169 silly get     etag: 'W/"0f8d471710b0c0fb53b2415a22e86f0c"',
+169 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+169 silly get     'last-modified': 'Sun, 27 May 2018 07:33:23 GMT',
+169 silly get     vary: 'accept-encoding, accept',
+169 silly get     server: 'cloudflare',
+169 silly get     'content-encoding': 'gzip' } ]
+170 verbose get saving material-ui to /home/leo/.npm/registry.npmjs.org/material-ui/.cache.json
+171 http 200 https://registry.npmjs.org/babel-core
+172 verbose headers { date: 'Mon, 28 May 2018 17:48:30 GMT',
+172 verbose headers   'content-type': 'application/json; charset=UTF-8',
+172 verbose headers   'transfer-encoding': 'chunked',
+172 verbose headers   connection: 'keep-alive',
+172 verbose headers   'set-cookie': [ '__cfduid=dc57c41df684d8c146d9d219f5fd041dd1527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+172 verbose headers   'cache-control': 'max-age=300',
+172 verbose headers   'cf-cache-status': 'HIT',
+172 verbose headers   'cf-ray': '42228d713f0fac2a-JNB',
+172 verbose headers   etag: 'W/"bfdc24f47029f1f46f1bdf08b0bc94ba"',
+172 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+172 verbose headers   'last-modified': 'Sat, 26 May 2018 01:34:08 GMT',
+172 verbose headers   vary: 'accept-encoding, accept',
+172 verbose headers   server: 'cloudflare',
+172 verbose headers   'content-encoding': 'gzip' }
+173 silly get cb [ 200,
+173 silly get   { date: 'Mon, 28 May 2018 17:48:30 GMT',
+173 silly get     'content-type': 'application/json; charset=UTF-8',
+173 silly get     'transfer-encoding': 'chunked',
+173 silly get     connection: 'keep-alive',
+173 silly get     'set-cookie': [ '__cfduid=dc57c41df684d8c146d9d219f5fd041dd1527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+173 silly get     'cache-control': 'max-age=300',
+173 silly get     'cf-cache-status': 'HIT',
+173 silly get     'cf-ray': '42228d713f0fac2a-JNB',
+173 silly get     etag: 'W/"bfdc24f47029f1f46f1bdf08b0bc94ba"',
+173 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+173 silly get     'last-modified': 'Sat, 26 May 2018 01:34:08 GMT',
+173 silly get     vary: 'accept-encoding, accept',
+173 silly get     server: 'cloudflare',
+173 silly get     'content-encoding': 'gzip' } ]
+174 verbose get saving babel-core to /home/leo/.npm/registry.npmjs.org/babel-core/.cache.json
+175 http 200 https://registry.npmjs.org/browserify
+176 verbose headers { date: 'Mon, 28 May 2018 17:48:30 GMT',
+176 verbose headers   'content-type': 'application/json; charset=UTF-8',
+176 verbose headers   'transfer-encoding': 'chunked',
+176 verbose headers   connection: 'keep-alive',
+176 verbose headers   'set-cookie': [ '__cfduid=d5e7f8d2045da133be65b1b168d461cfd1527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+176 verbose headers   'cache-control': 'max-age=300',
+176 verbose headers   'cf-cache-status': 'HIT',
+176 verbose headers   'cf-ray': '42228d71f905ac54-JNB',
+176 verbose headers   etag: 'W/"d8d2f7b2dde2094e1d34a900b818f448"',
+176 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+176 verbose headers   'last-modified': 'Sat, 26 May 2018 19:03:06 GMT',
+176 verbose headers   vary: 'accept-encoding, accept',
+176 verbose headers   server: 'cloudflare',
+176 verbose headers   'content-encoding': 'gzip' }
+177 silly get cb [ 200,
+177 silly get   { date: 'Mon, 28 May 2018 17:48:30 GMT',
+177 silly get     'content-type': 'application/json; charset=UTF-8',
+177 silly get     'transfer-encoding': 'chunked',
+177 silly get     connection: 'keep-alive',
+177 silly get     'set-cookie': [ '__cfduid=d5e7f8d2045da133be65b1b168d461cfd1527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+177 silly get     'cache-control': 'max-age=300',
+177 silly get     'cf-cache-status': 'HIT',
+177 silly get     'cf-ray': '42228d71f905ac54-JNB',
+177 silly get     etag: 'W/"d8d2f7b2dde2094e1d34a900b818f448"',
+177 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+177 silly get     'last-modified': 'Sat, 26 May 2018 19:03:06 GMT',
+177 silly get     vary: 'accept-encoding, accept',
+177 silly get     server: 'cloudflare',
+177 silly get     'content-encoding': 'gzip' } ]
+178 verbose get saving browserify to /home/leo/.npm/registry.npmjs.org/browserify/.cache.json
+179 http 200 https://registry.npmjs.org/@material-ui%2fcore
+180 verbose headers { date: 'Mon, 28 May 2018 17:48:31 GMT',
+180 verbose headers   'content-type': 'application/json; charset=UTF-8',
+180 verbose headers   'content-length': '7133',
+180 verbose headers   connection: 'keep-alive',
+180 verbose headers   'set-cookie':
+180 verbose headers    [ '__cfduid=d33e1eab5fd3e17e01ec454fa64479dc51527529709; expires=Tue, 28-May-19 17:48:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure',
+180 verbose headers      '__cfduid=d95915f94b87208dad4e102389e2d416f1527529709; expires=Tue, 28-May-19 17:48:29 GMT; path=/; domain=.npmjs.org; HttpOnly; Secure' ],
+180 verbose headers   'content-encoding': 'gzip',
+180 verbose headers   'accept-ranges': 'bytes',
+180 verbose headers   age: '183285',
+180 verbose headers   'cf-ray': '42228d6ed9efac66-JNB',
+180 verbose headers   etag: 'W/"5b0974b0-5931"',
+180 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+180 verbose headers   'last-modified': 'Sat, 26 May 2018 14:52:32 GMT',
+180 verbose headers   vary: 'Accept, Accept-Encoding',
+180 verbose headers   via: '1.1 varnish (Varnish/5.2)',
+180 verbose headers   'x-varnish': '460456297 333734323',
+180 verbose headers   server: 'cloudflare' }
+181 silly get cb [ 200,
+181 silly get   { date: 'Mon, 28 May 2018 17:48:31 GMT',
+181 silly get     'content-type': 'application/json; charset=UTF-8',
+181 silly get     'content-length': '7133',
+181 silly get     connection: 'keep-alive',
+181 silly get     'set-cookie':
+181 silly get      [ '__cfduid=d33e1eab5fd3e17e01ec454fa64479dc51527529709; expires=Tue, 28-May-19 17:48:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure',
+181 silly get        '__cfduid=d95915f94b87208dad4e102389e2d416f1527529709; expires=Tue, 28-May-19 17:48:29 GMT; path=/; domain=.npmjs.org; HttpOnly; Secure' ],
+181 silly get     'content-encoding': 'gzip',
+181 silly get     'accept-ranges': 'bytes',
+181 silly get     age: '183285',
+181 silly get     'cf-ray': '42228d6ed9efac66-JNB',
+181 silly get     etag: 'W/"5b0974b0-5931"',
+181 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+181 silly get     'last-modified': 'Sat, 26 May 2018 14:52:32 GMT',
+181 silly get     vary: 'Accept, Accept-Encoding',
+181 silly get     via: '1.1 varnish (Varnish/5.2)',
+181 silly get     'x-varnish': '460456297 333734323',
+181 silly get     server: 'cloudflare' } ]
+182 verbose get saving @material-ui/core to /home/leo/.npm/registry.npmjs.org/_40material-ui_252fcore/.cache.json
+183 http 200 https://registry.npmjs.org/@material-ui%2ficons
+184 verbose headers { date: 'Mon, 28 May 2018 17:48:31 GMT',
+184 verbose headers   'content-type': 'application/json; charset=UTF-8',
+184 verbose headers   'content-length': '5763',
+184 verbose headers   connection: 'keep-alive',
+184 verbose headers   'set-cookie':
+184 verbose headers    [ '__cfduid=d7783d738c78191b2675c837a77e853781527529709; expires=Tue, 28-May-19 17:48:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure',
+184 verbose headers      '__cfduid=d17cdc8443bef1596a09de101cf0df12d1527529709; expires=Tue, 28-May-19 17:48:29 GMT; path=/; domain=.npmjs.org; HttpOnly; Secure' ],
+184 verbose headers   'content-encoding': 'gzip',
+184 verbose headers   'accept-ranges': 'bytes',
+184 verbose headers   age: '183196',
+184 verbose headers   'cf-ray': '42228d6f2f88ac54-JNB',
+184 verbose headers   etag: 'W/"5b097500-48e0"',
+184 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+184 verbose headers   'last-modified': 'Sat, 26 May 2018 14:53:52 GMT',
+184 verbose headers   vary: 'Accept, Accept-Encoding',
+184 verbose headers   via: '1.1 varnish (Varnish/5.2)',
+184 verbose headers   'x-varnish': '427036923 378755468',
+184 verbose headers   server: 'cloudflare' }
+185 silly get cb [ 200,
+185 silly get   { date: 'Mon, 28 May 2018 17:48:31 GMT',
+185 silly get     'content-type': 'application/json; charset=UTF-8',
+185 silly get     'content-length': '5763',
+185 silly get     connection: 'keep-alive',
+185 silly get     'set-cookie':
+185 silly get      [ '__cfduid=d7783d738c78191b2675c837a77e853781527529709; expires=Tue, 28-May-19 17:48:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure',
+185 silly get        '__cfduid=d17cdc8443bef1596a09de101cf0df12d1527529709; expires=Tue, 28-May-19 17:48:29 GMT; path=/; domain=.npmjs.org; HttpOnly; Secure' ],
+185 silly get     'content-encoding': 'gzip',
+185 silly get     'accept-ranges': 'bytes',
+185 silly get     age: '183196',
+185 silly get     'cf-ray': '42228d6f2f88ac54-JNB',
+185 silly get     etag: 'W/"5b097500-48e0"',
+185 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+185 silly get     'last-modified': 'Sat, 26 May 2018 14:53:52 GMT',
+185 silly get     vary: 'Accept, Accept-Encoding',
+185 silly get     via: '1.1 varnish (Varnish/5.2)',
+185 silly get     'x-varnish': '427036923 378755468',
+185 silly get     server: 'cloudflare' } ]
+186 verbose get saving @material-ui/icons to /home/leo/.npm/registry.npmjs.org/_40material-ui_252ficons/.cache.json
+187 http 200 https://registry.npmjs.org/bootstrap-datepicker
+188 verbose headers { date: 'Mon, 28 May 2018 17:48:31 GMT',
+188 verbose headers   'content-type': 'application/json; charset=UTF-8',
+188 verbose headers   'transfer-encoding': 'chunked',
+188 verbose headers   connection: 'keep-alive',
+188 verbose headers   'set-cookie': [ '__cfduid=d3aa0461bf1fa68a6a58cffd1d713dc121527529709; expires=Tue, 28-May-19 17:48:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+188 verbose headers   'cache-control': 'max-age=300',
+188 verbose headers   'cf-cache-status': 'REVALIDATED',
+188 verbose headers   'cf-ray': '42228d6e7c5a15f8-JNB',
+188 verbose headers   etag: 'W/"f9a5832a5fc83c579b7bd43268e6516d"',
+188 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+188 verbose headers   'last-modified': 'Sat, 26 May 2018 18:46:27 GMT',
+188 verbose headers   vary: 'accept-encoding, accept',
+188 verbose headers   server: 'cloudflare',
+188 verbose headers   'content-encoding': 'gzip' }
+189 silly get cb [ 200,
+189 silly get   { date: 'Mon, 28 May 2018 17:48:31 GMT',
+189 silly get     'content-type': 'application/json; charset=UTF-8',
+189 silly get     'transfer-encoding': 'chunked',
+189 silly get     connection: 'keep-alive',
+189 silly get     'set-cookie': [ '__cfduid=d3aa0461bf1fa68a6a58cffd1d713dc121527529709; expires=Tue, 28-May-19 17:48:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+189 silly get     'cache-control': 'max-age=300',
+189 silly get     'cf-cache-status': 'REVALIDATED',
+189 silly get     'cf-ray': '42228d6e7c5a15f8-JNB',
+189 silly get     etag: 'W/"f9a5832a5fc83c579b7bd43268e6516d"',
+189 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+189 silly get     'last-modified': 'Sat, 26 May 2018 18:46:27 GMT',
+189 silly get     vary: 'accept-encoding, accept',
+189 silly get     server: 'cloudflare',
+189 silly get     'content-encoding': 'gzip' } ]
+190 verbose get saving bootstrap-datepicker to /home/leo/.npm/registry.npmjs.org/bootstrap-datepicker/.cache.json
+191 http 200 https://registry.npmjs.org/typeface-roboto
+192 verbose headers { date: 'Mon, 28 May 2018 17:48:31 GMT',
+192 verbose headers   'content-type': 'application/json; charset=UTF-8',
+192 verbose headers   'transfer-encoding': 'chunked',
+192 verbose headers   connection: 'keep-alive',
+192 verbose headers   'set-cookie': [ '__cfduid=d5e7f8d2045da133be65b1b168d461cfd1527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+192 verbose headers   'cache-control': 'max-age=300',
+192 verbose headers   'cf-cache-status': 'REVALIDATED',
+192 verbose headers   'cf-ray': '42228d70a82bac54-JNB',
+192 verbose headers   etag: 'W/"727fef823481a478246563f29e012d5c"',
+192 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+192 verbose headers   'last-modified': 'Sun, 27 May 2018 20:13:03 GMT',
+192 verbose headers   vary: 'accept-encoding, accept',
+192 verbose headers   server: 'cloudflare',
+192 verbose headers   'content-encoding': 'gzip' }
+193 silly get cb [ 200,
+193 silly get   { date: 'Mon, 28 May 2018 17:48:31 GMT',
+193 silly get     'content-type': 'application/json; charset=UTF-8',
+193 silly get     'transfer-encoding': 'chunked',
+193 silly get     connection: 'keep-alive',
+193 silly get     'set-cookie': [ '__cfduid=d5e7f8d2045da133be65b1b168d461cfd1527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+193 silly get     'cache-control': 'max-age=300',
+193 silly get     'cf-cache-status': 'REVALIDATED',
+193 silly get     'cf-ray': '42228d70a82bac54-JNB',
+193 silly get     etag: 'W/"727fef823481a478246563f29e012d5c"',
+193 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+193 silly get     'last-modified': 'Sun, 27 May 2018 20:13:03 GMT',
+193 silly get     vary: 'accept-encoding, accept',
+193 silly get     server: 'cloudflare',
+193 silly get     'content-encoding': 'gzip' } ]
+194 verbose get saving typeface-roboto to /home/leo/.npm/registry.npmjs.org/typeface-roboto/.cache.json
+195 http 200 https://registry.npmjs.org/babelify
+196 verbose headers { date: 'Mon, 28 May 2018 17:48:31 GMT',
+196 verbose headers   'content-type': 'application/json; charset=UTF-8',
+196 verbose headers   'transfer-encoding': 'chunked',
+196 verbose headers   connection: 'keep-alive',
+196 verbose headers   'set-cookie': [ '__cfduid=d84aa191c8187c118acd03b2aa30701f81527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+196 verbose headers   'cache-control': 'max-age=300',
+196 verbose headers   'cf-cache-status': 'REVALIDATED',
+196 verbose headers   'cf-ray': '42228d70bfafac6c-JNB',
+196 verbose headers   etag: 'W/"3874bc76be8a970b86c65b6f11e73934"',
+196 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+196 verbose headers   'last-modified': 'Sat, 26 May 2018 01:41:31 GMT',
+196 verbose headers   vary: 'accept-encoding, accept',
+196 verbose headers   server: 'cloudflare',
+196 verbose headers   'content-encoding': 'gzip' }
+197 silly get cb [ 200,
+197 silly get   { date: 'Mon, 28 May 2018 17:48:31 GMT',
+197 silly get     'content-type': 'application/json; charset=UTF-8',
+197 silly get     'transfer-encoding': 'chunked',
+197 silly get     connection: 'keep-alive',
+197 silly get     'set-cookie': [ '__cfduid=d84aa191c8187c118acd03b2aa30701f81527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+197 silly get     'cache-control': 'max-age=300',
+197 silly get     'cf-cache-status': 'REVALIDATED',
+197 silly get     'cf-ray': '42228d70bfafac6c-JNB',
+197 silly get     etag: 'W/"3874bc76be8a970b86c65b6f11e73934"',
+197 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+197 silly get     'last-modified': 'Sat, 26 May 2018 01:41:31 GMT',
+197 silly get     vary: 'accept-encoding, accept',
+197 silly get     server: 'cloudflare',
+197 silly get     'content-encoding': 'gzip' } ]
+198 verbose get saving babelify to /home/leo/.npm/registry.npmjs.org/babelify/.cache.json
+199 http 200 https://registry.npmjs.org/react-google-charts
+200 verbose headers { date: 'Mon, 28 May 2018 17:48:32 GMT',
+200 verbose headers   'content-type': 'application/json; charset=UTF-8',
+200 verbose headers   'transfer-encoding': 'chunked',
+200 verbose headers   connection: 'keep-alive',
+200 verbose headers   'set-cookie': [ '__cfduid=d84aa191c8187c118acd03b2aa30701f81527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+200 verbose headers   'cache-control': 'max-age=300',
+200 verbose headers   'cf-cache-status': 'MISS',
+200 verbose headers   'cf-ray': '42228d6f6f07ac6c-JNB',
+200 verbose headers   etag: 'W/"03c3e71e79717acbc034ee1cc534fde7"',
+200 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+200 verbose headers   'last-modified': 'Sun, 27 May 2018 14:01:50 GMT',
+200 verbose headers   vary: 'accept-encoding, accept',
+200 verbose headers   server: 'cloudflare',
+200 verbose headers   'content-encoding': 'gzip' }
+201 silly get cb [ 200,
+201 silly get   { date: 'Mon, 28 May 2018 17:48:32 GMT',
+201 silly get     'content-type': 'application/json; charset=UTF-8',
+201 silly get     'transfer-encoding': 'chunked',
+201 silly get     connection: 'keep-alive',
+201 silly get     'set-cookie': [ '__cfduid=d84aa191c8187c118acd03b2aa30701f81527529710; expires=Tue, 28-May-19 17:48:30 GMT; path=/; domain=.registry.npmjs.org; HttpOnly; Secure' ],
+201 silly get     'cache-control': 'max-age=300',
+201 silly get     'cf-cache-status': 'MISS',
+201 silly get     'cf-ray': '42228d6f6f07ac6c-JNB',
+201 silly get     etag: 'W/"03c3e71e79717acbc034ee1cc534fde7"',
+201 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+201 silly get     'last-modified': 'Sun, 27 May 2018 14:01:50 GMT',
+201 silly get     vary: 'accept-encoding, accept',
+201 silly get     server: 'cloudflare',
+201 silly get     'content-encoding': 'gzip' } ]
+202 verbose get saving react-google-charts to /home/leo/.npm/registry.npmjs.org/react-google-charts/.cache.json
+203 info outdated updating [ { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/home/leo/Documents/Github/AsteroidFinder',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: '@material-ui/core',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '1.1.0',
+203 info outdated     latest: '1.1.0',
+203 info outdated     req: '^1.0.0',
+203 info outdated     what: '@material-ui/core@1.1.0' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/home/leo/Documents/Github/AsteroidFinder',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: '@material-ui/icons',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '1.1.0',
+203 info outdated     latest: '1.1.0',
+203 info outdated     req: '^1.0.0',
+203 info outdated     what: '@material-ui/icons@1.1.0' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/home/leo/Documents/Github/AsteroidFinder',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'babel-core',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '6.26.3',
+203 info outdated     latest: '6.26.3',
+203 info outdated     req: '^6.26.3',
+203 info outdated     what: 'babel-core@6.26.3' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/home/leo/Documents/Github/AsteroidFinder',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'babel-preset-es2015',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '6.24.1',
+203 info outdated     latest: '6.24.1',
+203 info outdated     req: '^6.24.1',
+203 info outdated     what: 'babel-preset-es2015@6.24.1' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/home/leo/Documents/Github/AsteroidFinder',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'babel-preset-react',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '6.24.1',
+203 info outdated     latest: '6.24.1',
+203 info outdated     req: '^6.24.1',
+203 info outdated     what: 'babel-preset-react@6.24.1' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/home/leo/Documents/Github/AsteroidFinder',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'babelify',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '8.0.0',
+203 info outdated     latest: '8.0.0',
+203 info outdated     req: '^8.0.0',
+203 info outdated     what: 'babelify@8.0.0' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/home/leo/Documents/Github/AsteroidFinder',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'bootstrap',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '3.3.7',
+203 info outdated     latest: '4.1.1',
+203 info outdated     req: '^3.3.7',
+203 info outdated     what: 'bootstrap@3.3.7' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/home/leo/Documents/Github/AsteroidFinder',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'bootstrap-datepicker',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '1.8.0',
+203 info outdated     latest: '1.8.0',
+203 info outdated     req: '^1.8.0',
+203 info outdated     what: 'bootstrap-datepicker@1.8.0' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/home/leo/Documents/Github/AsteroidFinder',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'browserify',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '16.2.2',
+203 info outdated     latest: '16.2.2',
+203 info outdated     req: '^16.2.2',
+203 info outdated     what: 'browserify@16.2.2' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/home/leo/Documents/Github/AsteroidFinder',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'jquery',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '3.3.1',
+203 info outdated     latest: '3.3.1',
+203 info outdated     req: '^3.3.1',
+203 info outdated     what: 'jquery@3.3.1' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/home/leo/Documents/Github/AsteroidFinder',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'material-ui',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '0.20.1',
+203 info outdated     latest: '0.20.1',
+203 info outdated     req: '^0.20.1',
+203 info outdated     what: 'material-ui@0.20.1' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/home/leo/Documents/Github/AsteroidFinder',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'react',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '16.4.0',
+203 info outdated     latest: '16.4.0',
+203 info outdated     req: '^16.3.2',
+203 info outdated     what: 'react@16.4.0' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/home/leo/Documents/Github/AsteroidFinder',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'react-dom',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '16.4.0',
+203 info outdated     latest: '16.4.0',
+203 info outdated     req: '^16.3.2',
+203 info outdated     what: 'react-dom@16.4.0' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/home/leo/Documents/Github/AsteroidFinder',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'react-google-charts',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '1.6.6',
+203 info outdated     latest: '1.6.6',
+203 info outdated     req: '^1.6.0',
+203 info outdated     what: 'react-google-charts@1.6.6' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/home/leo/Documents/Github/AsteroidFinder',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'react-router-dom',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '4.2.2',
+203 info outdated     latest: '4.2.2',
+203 info outdated     req: '^4.2.2',
+203 info outdated     what: 'react-router-dom@4.2.2' },
+203 info outdated   { dep:
+203 info outdated      { package: [Object],
+203 info outdated        path: '/home/leo/Documents/Github/AsteroidFinder',
+203 info outdated        parent: [Object],
+203 info outdated        isMissing: true },
+203 info outdated     depname: 'typeface-roboto',
+203 info outdated     current: undefined,
+203 info outdated     wanted: '0.0.54',
+203 info outdated     latest: '0.0.54',
+203 info outdated     req: '0.0.54',
+203 info outdated     what: 'typeface-roboto@0.0.54' } ]
+204 silly loadCurrentTree Starting
+205 silly install loadCurrentTree
+206 silly install readLocalPackageData
+207 silly fetchPackageMetaData @material-ui/core@1.1.0
+208 silly fetchPackageMetaData @material-ui/icons@1.1.0
+209 silly fetchPackageMetaData babel-core@6.26.3
+210 silly fetchPackageMetaData babel-preset-es2015@6.24.1
+211 silly fetchPackageMetaData babel-preset-react@6.24.1
+212 silly fetchPackageMetaData babelify@8.0.0
+213 silly fetchPackageMetaData bootstrap@3.3.7
+214 silly fetchPackageMetaData bootstrap-datepicker@1.8.0
+215 silly fetchPackageMetaData browserify@16.2.2
+216 silly fetchPackageMetaData jquery@3.3.1
+217 silly fetchPackageMetaData material-ui@0.20.1
+218 silly fetchPackageMetaData react@16.4.0
+219 silly fetchPackageMetaData react-dom@16.4.0
+220 silly fetchPackageMetaData react-google-charts@1.6.6
+221 silly fetchPackageMetaData react-router-dom@4.2.2
+222 silly fetchPackageMetaData typeface-roboto@0.0.54
+223 silly fetchNamedPackageData @material-ui/core
+224 silly mapToRegistry name @material-ui/core
+225 silly mapToRegistry scope (from package name) @material-ui
+226 verbose mapToRegistry no registry URL found in name for scope @material-ui
+227 silly mapToRegistry using default registry
+228 silly mapToRegistry registry https://registry.npmjs.org/
+229 silly mapToRegistry uri https://registry.npmjs.org/@material-ui%2fcore
+230 silly fetchNamedPackageData @material-ui/icons
+231 silly mapToRegistry name @material-ui/icons
+232 silly mapToRegistry scope (from package name) @material-ui
+233 verbose mapToRegistry no registry URL found in name for scope @material-ui
+234 silly mapToRegistry using default registry
+235 silly mapToRegistry registry https://registry.npmjs.org/
+236 silly mapToRegistry uri https://registry.npmjs.org/@material-ui%2ficons
+237 silly fetchNamedPackageData babel-core
+238 silly mapToRegistry name babel-core
+239 silly mapToRegistry using default registry
+240 silly mapToRegistry registry https://registry.npmjs.org/
+241 silly mapToRegistry uri https://registry.npmjs.org/babel-core
+242 silly fetchNamedPackageData babel-preset-es2015
+243 silly mapToRegistry name babel-preset-es2015
+244 silly mapToRegistry using default registry
+245 silly mapToRegistry registry https://registry.npmjs.org/
+246 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-es2015
+247 silly fetchNamedPackageData babel-preset-react
+248 silly mapToRegistry name babel-preset-react
+249 silly mapToRegistry using default registry
+250 silly mapToRegistry registry https://registry.npmjs.org/
+251 silly mapToRegistry uri https://registry.npmjs.org/babel-preset-react
+252 silly fetchNamedPackageData babelify
+253 silly mapToRegistry name babelify
+254 silly mapToRegistry using default registry
+255 silly mapToRegistry registry https://registry.npmjs.org/
+256 silly mapToRegistry uri https://registry.npmjs.org/babelify
+257 silly fetchNamedPackageData bootstrap
+258 silly mapToRegistry name bootstrap
+259 silly mapToRegistry using default registry
+260 silly mapToRegistry registry https://registry.npmjs.org/
+261 silly mapToRegistry uri https://registry.npmjs.org/bootstrap
+262 silly fetchNamedPackageData bootstrap-datepicker
+263 silly mapToRegistry name bootstrap-datepicker
+264 silly mapToRegistry using default registry
+265 silly mapToRegistry registry https://registry.npmjs.org/
+266 silly mapToRegistry uri https://registry.npmjs.org/bootstrap-datepicker
+267 silly fetchNamedPackageData browserify
+268 silly mapToRegistry name browserify
+269 silly mapToRegistry using default registry
+270 silly mapToRegistry registry https://registry.npmjs.org/
+271 silly mapToRegistry uri https://registry.npmjs.org/browserify
+272 silly fetchNamedPackageData jquery
+273 silly mapToRegistry name jquery
+274 silly mapToRegistry using default registry
+275 silly mapToRegistry registry https://registry.npmjs.org/
+276 silly mapToRegistry uri https://registry.npmjs.org/jquery
+277 silly fetchNamedPackageData material-ui
+278 silly mapToRegistry name material-ui
+279 silly mapToRegistry using default registry
+280 silly mapToRegistry registry https://registry.npmjs.org/
+281 silly mapToRegistry uri https://registry.npmjs.org/material-ui
+282 silly fetchNamedPackageData react
+283 silly mapToRegistry name react
+284 silly mapToRegistry using default registry
+285 silly mapToRegistry registry https://registry.npmjs.org/
+286 silly mapToRegistry uri https://registry.npmjs.org/react
+287 silly fetchNamedPackageData react-dom
+288 silly mapToRegistry name react-dom
+289 silly mapToRegistry using default registry
+290 silly mapToRegistry registry https://registry.npmjs.org/
+291 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+292 silly fetchNamedPackageData react-google-charts
+293 silly mapToRegistry name react-google-charts
+294 silly mapToRegistry using default registry
+295 silly mapToRegistry registry https://registry.npmjs.org/
+296 silly mapToRegistry uri https://registry.npmjs.org/react-google-charts
+297 silly fetchNamedPackageData react-router-dom
+298 silly mapToRegistry name react-router-dom
+299 silly mapToRegistry using default registry
+300 silly mapToRegistry registry https://registry.npmjs.org/
+301 silly mapToRegistry uri https://registry.npmjs.org/react-router-dom
+302 silly fetchNamedPackageData typeface-roboto
+303 silly mapToRegistry name typeface-roboto
+304 silly mapToRegistry using default registry
+305 silly mapToRegistry registry https://registry.npmjs.org/
+306 silly mapToRegistry uri https://registry.npmjs.org/typeface-roboto
+307 verbose get https://registry.npmjs.org/@material-ui%2fcore not expired, no request
+308 verbose get https://registry.npmjs.org/@material-ui%2ficons not expired, no request
+309 verbose get https://registry.npmjs.org/babel-core not expired, no request
+310 verbose get https://registry.npmjs.org/babel-preset-es2015 not expired, no request
+311 verbose get https://registry.npmjs.org/babel-preset-react not expired, no request
+312 verbose get https://registry.npmjs.org/babelify not expired, no request
+313 verbose get https://registry.npmjs.org/bootstrap not expired, no request
+314 verbose get https://registry.npmjs.org/bootstrap-datepicker not expired, no request
+315 verbose get https://registry.npmjs.org/browserify not expired, no request
+316 verbose get https://registry.npmjs.org/jquery not expired, no request
+317 verbose get https://registry.npmjs.org/material-ui not expired, no request
+318 verbose get https://registry.npmjs.org/react not expired, no request
+319 verbose get https://registry.npmjs.org/react-dom not expired, no request
+320 verbose get https://registry.npmjs.org/react-google-charts not expired, no request
+321 verbose get https://registry.npmjs.org/react-router-dom not expired, no request
+322 verbose get https://registry.npmjs.org/typeface-roboto not expired, no request
+323 silly install normalizeTree
+324 silly loadCurrentTree Finishing
+325 silly loadIdealTree Starting
+326 silly install loadIdealTree
+327 silly cloneCurrentTree Starting
+328 silly install cloneCurrentTreeToIdealTree
+329 silly cloneCurrentTree Finishing
+330 silly loadShrinkwrap Starting
+331 silly install loadShrinkwrap
+332 silly loadShrinkwrap Finishing
+333 silly loadAllDepsIntoIdealTree Starting
+334 silly install loadAllDepsIntoIdealTree
+335 silly resolveWithNewModule @material-ui/core@1.1.0 checking installable status
+336 silly cache add args [ '@material-ui/core@1.1.0', null ]
+337 verbose cache add spec @material-ui/core@1.1.0
+338 silly resolveWithNewModule @material-ui/icons@1.1.0 checking installable status
+339 silly cache add args [ '@material-ui/icons@1.1.0', null ]
+340 verbose cache add spec @material-ui/icons@1.1.0
+341 silly resolveWithNewModule babel-core@6.26.3 checking installable status
+342 silly cache add args [ 'babel-core@6.26.3', null ]
+343 verbose cache add spec babel-core@6.26.3
+344 silly resolveWithNewModule babel-preset-es2015@6.24.1 checking installable status
+345 silly cache add args [ 'babel-preset-es2015@6.24.1', null ]
+346 verbose cache add spec babel-preset-es2015@6.24.1
+347 silly resolveWithNewModule babel-preset-react@6.24.1 checking installable status
+348 silly cache add args [ 'babel-preset-react@6.24.1', null ]
+349 verbose cache add spec babel-preset-react@6.24.1
+350 silly resolveWithNewModule babelify@8.0.0 checking installable status
+351 silly cache add args [ 'babelify@8.0.0', null ]
+352 verbose cache add spec babelify@8.0.0
+353 silly resolveWithNewModule bootstrap@3.3.7 checking installable status
+354 silly cache add args [ 'bootstrap@3.3.7', null ]
+355 verbose cache add spec bootstrap@3.3.7
+356 silly resolveWithNewModule bootstrap-datepicker@1.8.0 checking installable status
+357 silly cache add args [ 'bootstrap-datepicker@1.8.0', null ]
+358 verbose cache add spec bootstrap-datepicker@1.8.0
+359 silly resolveWithNewModule browserify@16.2.2 checking installable status
+360 silly cache add args [ 'browserify@16.2.2', null ]
+361 verbose cache add spec browserify@16.2.2
+362 silly resolveWithNewModule jquery@3.3.1 checking installable status
+363 silly cache add args [ 'jquery@3.3.1', null ]
+364 verbose cache add spec jquery@3.3.1
+365 silly resolveWithNewModule material-ui@0.20.1 checking installable status
+366 silly cache add args [ 'material-ui@0.20.1', null ]
+367 verbose cache add spec material-ui@0.20.1
+368 silly resolveWithNewModule react@16.4.0 checking installable status
+369 silly cache add args [ 'react@16.4.0', null ]
+370 verbose cache add spec react@16.4.0
+371 silly resolveWithNewModule react-dom@16.4.0 checking installable status
+372 silly cache add args [ 'react-dom@16.4.0', null ]
+373 verbose cache add spec react-dom@16.4.0
+374 verbose stack Error: Missing required argument #1
+374 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+374 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+374 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+374 verbose stack     at /usr/share/npm/lib/install/deps.js:190:5
+374 verbose stack     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:35
+374 verbose stack     at Array.forEach (native)
+374 verbose stack     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:11
+374 verbose stack     at Array.forEach (native)
+374 verbose stack     at asyncMap (/usr/share/npm/node_modules/slide/lib/async-map.js:51:8)
+374 verbose stack     at exports.loadRequestedDeps (/usr/share/npm/lib/install/deps.js:188:3)
+375 verbose cwd /home/leo/Documents/Github/AsteroidFinder
+376 error Linux 4.10.0-28-generic
+377 error argv "/usr/bin/nodejs" "/usr/bin/npm" "update"
+378 error node v4.2.6
+379 error npm  v3.5.2
+380 error code EMISSINGARG
+381 error typeerror Error: Missing required argument #1
+381 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+381 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+381 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+381 error typeerror     at /usr/share/npm/lib/install/deps.js:190:5
+381 error typeerror     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:35
+381 error typeerror     at Array.forEach (native)
+381 error typeerror     at /usr/share/npm/node_modules/slide/lib/async-map.js:52:11
+381 error typeerror     at Array.forEach (native)
+381 error typeerror     at asyncMap (/usr/share/npm/node_modules/slide/lib/async-map.js:51:8)
+381 error typeerror     at exports.loadRequestedDeps (/usr/share/npm/lib/install/deps.js:188:3)
+382 error typeerror This is an error with npm itself. Please report this error at:
+382 error typeerror     <http://github.com/npm/npm/issues>
+383 verbose exit [ 1, true ]

@@ -10,6 +10,16 @@
   margin-bottom: 25px;
 }
 
+.con2 {
+  width: 40%;
+
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  float: left;
+}
+
 .data {
   margin-left: 25px;
   margin-top: 25px;
@@ -19,7 +29,34 @@ h3 {
   margin-left: 25px;
 
 }
+h4 {
+  margin-left: 25px;
+
+}
+p {
+  margin-left: 25px;
+
+}
 
 .navbar {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+cal {
+  float: left;
+  margin: 0px;
+}
+
+.note{
+  width: 80%;
+  margin-left: 10%;
+
+}
+.button{
+  width: 100%;
+}
+.buttonCon{
+  margin-bottom: 25px;
+  width: 80%;
+  margin-left: 10%;
 }

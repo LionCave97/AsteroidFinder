@@ -37,9 +37,6 @@ class DashCharts extends React.Component {
     }
     this._fetchResponseNeoLookup(2207398);
 
-
-        var done = true;
-        this.setState({done: done});
   }
 
   _getDayAstroids(day){
@@ -63,12 +60,11 @@ class DashCharts extends React.Component {
       method: "GET",
       url: "https://api.nasa.gov/neo/rest/v1/neo/"+ key +"?api_key=tqDzz0KlWtH1tGR1bj35NMM4fGmOmA8a0jqGqap7",
       success: (answers) => {
-        console.log(answers);
         this.setState({lookup: answers});
-
-
+        this.setState({done: true});
       }
     });
+
   }
 
   _processAstroids(objects){
@@ -93,8 +89,6 @@ class DashCharts extends React.Component {
         planetCount[index]++;
 
       }
-
-
 
     }
     for (var i = 0; i < planets.length; i++) {
