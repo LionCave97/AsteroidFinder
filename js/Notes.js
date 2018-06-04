@@ -17,9 +17,21 @@ class Notes extends React.Component {
   constructor() {
     super();
     this.state = {
-      form:"This is a form for your Asteroids"
+      form:[
+        {note: "The amount of hazardous asteroids have been increasing the last few days."}
+      ]
     }
   }
+
+  componentWillMount() {
+    console.log(this.state.form[0].note);
+  }
+
+  _addNote(){
+    console.log("test");
+  }
+
+
 
   render() {
     return(
@@ -27,7 +39,7 @@ class Notes extends React.Component {
         <Card className="con">
 
         <h3>
-        Enjoy making a note
+        Keep notes while tracking Asteroids
         </h3>
         <div className="note">
 
@@ -36,15 +48,15 @@ class Notes extends React.Component {
           label=""
           multiline
           rows="4"
-          value={this.state.form}
+          defaultValue={this.state.form[0].note}
           className="note"
           margin="normal"
         />
         </div>
 
         <div className="buttonCon">
-        <Button variant="raised" color="primary" className="saveNotes">
-        Save Notes
+        <Button variant="raised" color="primary" className="saveNotes" onClick={this._addNote}>
+        Save Note
       </Button>
       </div>
         </Card>

@@ -156,10 +156,12 @@ class DashCharts extends React.Component {
           <div className="chart">
           <Card className="con">
           <h3> Today it is the {today}</h3>
+          <h4> Welcome to the Asteroid Finder!</h4> 
+          <h4> Here you will be able to see specific data about asteroids over a certain timeline.</h4>
           </Card>
 
           <Card className="con">
-          <h3> Showing the orbit pattern of 207398 (2006 AS2) Asteroid</h3>
+          <h3> Showing the orbit pattern of Asteroid: 207398 (2006 AS2) </h3>
           <Chart
             chartType="PieChart"
             options={{title: "Planet", hAxis: {title: "Asteroid Count"}, vAxis: {title: "Asteroid"}}}
