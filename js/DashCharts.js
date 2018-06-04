@@ -17,7 +17,7 @@ class DashCharts extends React.Component {
   constructor() {
     super();
     this.state = {
-      max: 10,
+      max: 11,
       days: [],
       lookup: [],
       done: false
@@ -26,16 +26,25 @@ class DashCharts extends React.Component {
   }
 
   componentWillMount() {
+    var Tmax = this.state.max;
     for (var i = 0; i < this.state.max; i++) {
       var date = new Date();
       var month = ("0" + (date.getMonth() + 1)).slice(-2); // Stackoverflow// https://stackoverflow.com/questions/6040515/how-do-i-get-month-and-date-of-javascript-in-2-digit-format/22198300
       date.setDate(date.getDate() - i);
       var day = date.getDate();
-      var today = date.getFullYear()+"-"+month+ "-"+day;
-      this._getDayAstroids(today);
+      if (day < 9) {
+        day = "0"+day;
+      }
+      if (day !== 31) {
+        var today = date.getFullYear()+"-"+month+ "-"+day;
+        this._getDayAstroids(today);
+      } else {
+        Tmax = Tmax -1;
+      }
+
 
     }
-    this._fetchResponseNeoLookup(2207398);
+    this.setState({max: Tmax});
 
   }
 
@@ -46,7 +55,6 @@ class DashCharts extends React.Component {
       url: "https://api.nasa.gov/neo/rest/v1/feed?start_date="+ day +"&end_date="+ day +"&api_key=tqDzz0KlWtH1tGR1bj35NMM4fGmOmA8a0jqGqap7",
       success: (answers) => {
         this._processAstroids(answers.near_earth_objects[day]);
-        // console.log(answers);
       }
 
 
@@ -55,17 +63,17 @@ class DashCharts extends React.Component {
 
   }
 
-  _fetchResponseNeoLookup(key) {
-    jQuery.ajax({
-      method: "GET",
-      url: "https://api.nasa.gov/neo/rest/v1/neo/"+ key +"?api_key=tqDzz0KlWtH1tGR1bj35NMM4fGmOmA8a0jqGqap7",
-      success: (answers) => {
-        this.setState({lookup: answers});
-        this.setState({done: true});
-      }
-    });
-
-  }
+  // _fetchResponseNeoLookup(key) {
+  //   jQuery.ajax({
+  //     method: "GET",
+  //     url: "https://api.nasa.gov/neo/rest/v1/neo/"+ key +"?api_key=tqDzz0KlWtH1tGR1bj35NMM4fGmOmA8a0jqGqap7",
+  //     success: (answers) => {
+  //       this.setState({lookup: answers});
+  //       this.setState({done: true});
+  //     }
+  //   });
+  //
+  // }
 
   _processAstroids(objects){
     var days = this.state.days.concat([]);
@@ -77,25 +85,33 @@ class DashCharts extends React.Component {
 
   _getAstroidPieRow(){
     var rows = [];
-    let planets = [];
-    let planetCount = [];
-    for (var i = 0; i < this.state.lookup.close_approach_data.length; i++) {
+    var asteroidsH = 0;
+    var asteroidsF = 0;
+    for (var i = 0; i < this.state.max; i++) {
+      var date = new Date();
+      var month = ("0" + (date.getMonth() + 1)).slice(-2); // Stackoverflow// https://stackoverflow.com/questions/6040515/how-do-i-get-month-and-date-of-javascript-in-2-digit-format/22198300
+      date.setDate(date.getDate() - i);
+      var day = date.getDate();
+      var today = date.getFullYear()+"-"+month+ "-"+day;
+      let asteroids = 0;
 
-      if ( planets.indexOf(this.state.lookup.close_approach_data[i].orbiting_body) < 0 ) {
-        planetCount.push(1);
-        planets.push(this.state.lookup.close_approach_data[i].orbiting_body)
-      } else {
-        var index = planets.indexOf(this.state.lookup.close_approach_data[i].orbiting_body);
-        planetCount[index]++;
+      for (var s = 0; s < this.state.days[i].length; s++) {
+
+        var row;
+        let asteroidDay = this.state.days[i];
+        if (asteroidDay[s].is_potentially_hazardous_asteroid == true) {
+          asteroidsH++;
+        } else {
+          asteroidsF++;
+        }
 
       }
 
     }
-    for (var i = 0; i < planets.length; i++) {
-      let row = [planets[i], planetCount[i]];
-        rows.push(row);
-    }
-
+    row = ["False", asteroidsF];
+    rows.push(row);
+    row = ["True", asteroidsH];
+    rows.push(row);
     return rows;
 
   }
@@ -108,8 +124,9 @@ class DashCharts extends React.Component {
       date.setDate(date.getDate() - i);
       var day = date.getDate();
       var today = date.getFullYear()+"-"+month+ "-"+day;
-      let astroids = this.state.days[i].length
-      let row = [today, astroids]
+
+      let astroids = this.state.days[i].length;
+      let row = [today, astroids];
       rows.push(row);
 
     }
@@ -150,23 +167,23 @@ class DashCharts extends React.Component {
     var day = date.getDate();
     var today = date.getFullYear()+"-"+month+ "-"+day;
 
-      if (this.state.days.length > this.state.max-1 && this.state.done === true) {
+      if (this.state.days.length > this.state.max-1) {
         return (
           <div className="con">
           <div className="chart">
           <Card className="con">
           <h3> Today it is the {today}</h3>
-          <h4> Welcome to the Asteroid Finder!</h4> 
+          <h4> Welcome to the Asteroid Finder!</h4>
           <h4> Here you will be able to see specific data about asteroids over a certain timeline.</h4>
           </Card>
 
           <Card className="con">
-          <h3> Showing the orbit pattern of Asteroid: 207398 (2006 AS2) </h3>
+          <h3> The total percentage of Hazardous asteroids for the last {this.state.max} days </h3>
           <Chart
             chartType="PieChart"
             options={{title: "Planet", hAxis: {title: "Asteroid Count"}, vAxis: {title: "Asteroid"}}}
             rows={this._getAstroidPieRow()}
-            columns={[{label: "Asteroid", type: "string"}, {label: "Planet", type: "number"}]}
+            columns={[{label: "True", type: "string"}, {label: "False", type: "number"}]}
             graph_id={"asteroids-planet"}
             width="100%"
             height="400px"

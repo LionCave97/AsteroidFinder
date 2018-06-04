@@ -17,41 +17,58 @@ class Notes extends React.Component {
   constructor() {
     super();
     this.state = {
-      form:[
-        {note: "The amount of hazardous asteroids have been increasing the last few days."}
-      ]
+      forms:[
+        {title: "Hazardous Asteroids", note: "The amount of hazardous asteroids have been increasing the last few days.", key:0},
+        {title: "Asteroids", note: "Asteroids are a interesting thing", key:1},
+        {title: "Dinosaurs", note: "Can you believe a astroid killed the dinosaurs!", key:2}
+      ],
+      test:""
     }
   }
 
-  componentWillMount() {
-    console.log(this.state.form[0].note);
+    _addNote(){
+      var texts = [];
+    // var texts = this.state.forms;
+    // var length = texts.length;
+    var text = $("input:text").val();
+      var title = "test";
+    texts.push("title": title, "name": text, "key": length);
+    this.setState({forms: texts});
   }
 
-  _addNote(){
-    console.log("test");
-  }
+_markupNotes(){
+  return this.state.forms.map((form) => {
+      return(
+        <Card className="note">
+          <h4>{form.title}</h4>
+          <p>{form.note}</p>
+        </Card>
 
+      );
+
+
+  });
+}
 
 
   render() {
+
     return(
       <div>
+        {this._markupNotes()}
+        <div className="notesInput">
         <Card className="con">
 
         <h3>
         Keep notes while tracking Asteroids
         </h3>
-        <div className="note">
-
-        <TextField
-          id="multiline-static"
-          label=""
-          multiline
-          rows="4"
-          defaultValue={this.state.form[0].note}
-          className="note"
-          margin="normal"
-        />
+        <div className="text">
+        <p>Title:</p>
+        <input type="text" name="title" className="title">
+        </input>
+        <p>Note</p>
+        <input type="text" name="input" className="textinput">
+        </input>
         </div>
 
         <div className="buttonCon">
@@ -60,6 +77,7 @@ class Notes extends React.Component {
       </Button>
       </div>
         </Card>
+        </div>
       </div>
     );
   }
