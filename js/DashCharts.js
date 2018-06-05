@@ -108,9 +108,9 @@ class DashCharts extends React.Component {
       }
 
     }
-    row = ["False", asteroidsF];
+    row = ["Not Hazardous", asteroidsF];
     rows.push(row);
-    row = ["True", asteroidsH];
+    row = ["Hazardous", asteroidsH];
     rows.push(row);
     return rows;
 

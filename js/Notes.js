@@ -21,19 +21,23 @@ class Notes extends React.Component {
         {title: "Hazardous Asteroids", note: "The amount of hazardous asteroids have been increasing the last few days.", key:0},
         {title: "Asteroids", note: "Asteroids are a interesting thing", key:1},
         {title: "Dinosaurs", note: "Can you believe a astroid killed the dinosaurs!", key:2}
-      ],
-      test:""
+      ]
     }
   }
 
     _addNote(){
       var texts = [];
-    // var texts = this.state.forms;
-    // var length = texts.length;
-    var text = $("input:text").val();
-      var title = "test";
-    texts.push("title": title, "name": text, "key": length);
+    var texts = this.state.forms.concat([]);
+    console.log(texts);
+    var length = texts.length;
+    var text = $(".textinput").val();
+      var title = $(".title").val();
+
+    texts.push({"title": title, "note": text, "key": length});
+    console.log(texts);
     this.setState({forms: texts});
+    $(".title").val("");
+    $(".textinput").val("");
   }
 
 _markupNotes(){
@@ -72,7 +76,7 @@ _markupNotes(){
         </div>
 
         <div className="buttonCon">
-        <Button variant="raised" color="primary" className="saveNotes" onClick={this._addNote}>
+        <Button variant="raised" color="primary" className="saveNotes" onClick={this._addNote.bind(this)}>
         Save Note
       </Button>
       </div>
